@@ -20,6 +20,7 @@ let youCanbuy = Math.floor(userMoney / chocoCost);
 alert(`Wow! You can buy ${youCanbuy} chocolates`);
 alert(`And by the way take your leftovers ${userMoney % chocoCost}`);
 
-let arr = prompt('Now enter any three-digit number', '');
+// не знаю, як виконати
+let yourNumber = prompt('Enter ane three number', '');
 let result = yourNumber.reverse();
-alert('result');
+alert(result);
